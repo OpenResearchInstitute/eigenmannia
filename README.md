@@ -1,4 +1,4 @@
-# Notched Constant-Envelope Waveforms (working name, code name to be chosen)
+# Eigenmannia: Notched Constant-Envelope Waveforms
 
 An open-source, independent reconstruction of spectrally notched, constant-envelope
 radar waveform design, with the goal of running it in real time on Open Research

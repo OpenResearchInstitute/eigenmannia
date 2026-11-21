@@ -1,7 +1,7 @@
 # Statement of Work: Open-Source Notched Constant-Envelope Waveform Design
 
 **Organization:** Open Research Institute (ORI)
-**Project code name:** to be chosen (working name: notched-waveform)
+**Project code name:** Eigenmannia
 **Date:** November 21, 2026
 **Status:** Draft
 
@@ -102,7 +102,7 @@ and offer the results to the speaker and the community.
 
 ## 6. Open questions
 
-- Code name.
+- Code name: chosen (Eigenmannia, after the glass knifefish whose jamming avoidance response shifts its electric signal away from a neighbor's frequency so both can keep sensing).
 - License (ORI's usual choice for software and hardware designs).
 - Whether to contact the speaker now, after Phase 1, or after a hardware demonstration.
 - Choice of radio front end if 150 MHz of bandwidth is wanted.
