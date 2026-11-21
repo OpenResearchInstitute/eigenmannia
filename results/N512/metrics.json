@@ -1,0 +1,60 @@
+{
+  "lfm": {
+    "notch_mean_db": 0.1,
+    "notch_worst_db": 0.5,
+    "psl_db": -13.5,
+    "isl_db": -7.2,
+    "mainlobe_null_samples": 2,
+    "approx_3db_width_m": 1.0,
+    "envelope_ripple": 4.440892098500626e-16,
+    "interference_gain_vs_lfm_db": 0.0
+  },
+  "jump": {
+    "notch_mean_db": -9.7,
+    "notch_worst_db": -4.7,
+    "psl_db": -10.6,
+    "isl_db": -2.2,
+    "mainlobe_null_samples": 2,
+    "approx_3db_width_m": 1.0,
+    "envelope_ripple": 4.440892098500626e-16,
+    "interference_gain_vs_lfm_db": 9.1
+  },
+  "ap_flat": {
+    "notch_mean_db": -15.5,
+    "notch_worst_db": -7.9,
+    "psl_db": -10.3,
+    "isl_db": -1.6,
+    "mainlobe_null_samples": 2,
+    "approx_3db_width_m": 1.0,
+    "envelope_ripple": 4.440892098500626e-16,
+    "interference_gain_vs_lfm_db": 14.8
+  },
+  "convex": {
+    "notch_mean_db": -15.3,
+    "notch_worst_db": -5.7,
+    "psl_db": -24.4,
+    "isl_db": -3.1,
+    "mainlobe_null_samples": 7,
+    "approx_3db_width_m": 2.0,
+    "envelope_ripple": 4.440892098500626e-16,
+    "interference_gain_vs_lfm_db": 14.6
+  },
+  "_convex_solver": {
+    "status": "optimal",
+    "optimal_psl_db": -28.1,
+    "solve_s": 69.3,
+    "ap_s": 0.17
+  },
+  "_params": {
+    "B": 150000000.0,
+    "fs": 300000000.0,
+    "N": 512,
+    "notch_center": 30000000.0,
+    "notch_width": 25000000.0,
+    "notch_db": -30.0,
+    "oob_db": -30.0,
+    "K": 4,
+    "g_cap": 3.0,
+    "ap_iters": 2000
+  }
+}
