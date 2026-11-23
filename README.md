@@ -108,5 +108,12 @@ Writes metrics as JSON to standard output and a spectrum and range-response plot
 
 ## License and attribution
 
-Open source (license to be chosen by ORI). Credit for the methodology as presented
+Open source CERN-OHL-W version 2.0. Credit for the methodology as presented
 belongs to Spencer Markowitz; any errors of interpretation are ours.
+
+## Public availability
+
+This project is available to the general public at no cost from its first commit. 
+It is based on a public presentation (Radio Club of America Technical Symposium, 
+New York, November 21, 2026) and on published methods in the open literature. 
+It contains no proprietary, controlled, or non-public information.
