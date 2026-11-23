@@ -76,9 +76,9 @@ and offer the results to the speaker and the community.
   constant-envelope projection) in FPGA fabric on the ZCU102.
 - Feed the notch mask from a spectrum sensor. An ORI channelizer (as in Haifuraiya) is
   a candidate for supplying prior knowledge of the interference.
-- Transmit and receive through the ADRV9002. **Constraint to check:** as far as we
-  know, the ADRV9002 supports up to about 40 MHz of bandwidth, not 150 MHz. At 40 MHz,
-  range resolution is about 3.75 m. Wider bandwidth needs a different radio front end.
+- Transmit and receive through the ADRV9009. This has 200 MHz of bandwidth and can transmit
+  on frequencies above 900 MHz, where the class of emission we are going to use is allowed
+  on the amateur bands.
 
 ### Phase 4: Demonstration
 
@@ -103,12 +103,12 @@ and offer the results to the speaker and the community.
 ## 6. Open questions
 
 - Code name: chosen (Eigenmannia, after the glass knifefish whose jamming avoidance response shifts its electric signal away from a neighbor's frequency so both can keep sensing).
-- License (ORI's usual choice for software and hardware designs).
-- Whether to contact the speaker now, after Phase 1, or after a hardware demonstration.
-- Choice of radio front end if 150 MHz of bandwidth is wanted.
-- Volunteers: DSP and Python (Phases 0 to 2), VHDL (Phase 3), RF test (Phase 4).
+- License: chosen CERN-OHL-W Version 2.0
+- Whether to contact the speaker now, after Phase 1, or after a hardware demonstration?
+- Choice of radio front end: chosen ADRV9009
+- Volunteers needed for DSP and Python (Phases 0 to 2), VHDL (Phase 3), RF test (Phase 4).
 
-## 7. Risks
+## 7. Known Risks (please help us add to these)
 
 - The constant-envelope realization may fall well short of the convex optimum at
   practical time-bandwidth products. Phase 0 already showed about 4 dB of loss and
