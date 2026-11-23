@@ -76,9 +76,9 @@ and offer the results to the speaker and the community.
   constant-envelope projection) in FPGA fabric on the ZCU102.
 - Feed the notch mask from a spectrum sensor. An ORI channelizer (as in Haifuraiya) is
   a candidate for supplying prior knowledge of the interference.
-- Transmit and receive through the ADRV9002. **Constraint to check:** as far as we
-  know, the ADRV9002 supports up to about 40 MHz of bandwidth, not 150 MHz. At 40 MHz,
-  range resolution is about 3.75 m. Wider bandwidth needs a different radio front end.
+- Transmit and receive through the ADRV9009. This has 200 MHz of bandwidth and can transmit
+  on frequencies above 900 MHz, where the class of emission we are going to use is allowed
+  on the amateur bands.
 
 ### Phase 4: Demonstration
 
