@@ -108,5 +108,5 @@ Writes metrics as JSON to standard output and a spectrum and range-response plot
 
 ## License and attribution
 
-Open source (license to be chosen by ORI). Credit for the methodology as presented
+Open source CERN-OHL-W Version 2.0. Credit for the methodology as presented
 belongs to Spencer Markowitz; any errors of interpretation are ours.
